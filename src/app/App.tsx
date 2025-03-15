@@ -1,12 +1,11 @@
 import s from './App.module.scss'
-import {Button} from '../components/button/button.tsx'
+import {ModalPayments} from '../components/modal-payments/modal-payments.tsx'
 
 function App() {
-
   return (
 
     <div className={s.wrapper}>
-      <Button variant={'normal'}>Досрочный платёж</Button>
+      <ModalPayments/>
     </div>
   )
 }

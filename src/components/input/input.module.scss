@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+
+  .title {
+    margin: 0 0 8px 0;
+    font-size: var(--font-size-s);
+    font-weight: 500;
+  }
+
+  .input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 16px;
+
+    font-size: var(--font-size-m);
+    color: #333;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s;
+
+    &:focus {
+      background: #fff;
+      outline: none;
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+    }
+
+    &::placeholder {
+      color: #bbb;
+      font-size: 14px;
+    }
+  }
+
+
+}

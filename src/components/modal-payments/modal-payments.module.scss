@@ -1,0 +1,14 @@
+.wrapper {
+
+  .title {
+    margin: 0;
+    font-weight: 500;
+    font-size: var(--font-size-xxl);
+  }
+
+  .description {
+    color: var(--color-dark-input-disabled);
+    font-size: var(--font-size-s);
+    margin: 10px 0;
+  }
+}

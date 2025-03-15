@@ -1,3 +1,7 @@
 body {
-  background: #3a3a3a;
+  background-color: var(--color-red-gradient-start) ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

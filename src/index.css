@@ -1,8 +1,25 @@
 @import './styles/_colors.scss';
 @import './styles/_typography.scss';
 
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./assets/fonts/LabGrotesque-Regular.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Regular.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('./assets/fonts/LabGrotesque-Medium.woff2') format('woff2'),
+    url('./assets/fonts/LabGrotesque-Medium.woff2') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 html {
     font-size: 16px;
+    font-family: 'Lab Grotesque', sans-serif;
 }
 
 body {
